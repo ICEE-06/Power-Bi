@@ -1,0 +1,31 @@
+Consigne de rendu du TP :
+
+Chaque étudiant doit envoyer son travail personnel (TP individuel) avant aujourd’hui à 23h00 à l’adresse suivante :
+ignace.rajaosolomanantena@univ-antananarivo.mg
+
+Ce travail est noté et impactera votre note finale, merci donc de le prendre avec le plus grand sérieux.
+
+Le dossier à remettre doit contenir :
+
+Un rapport au format PDF incluant :
+
+
+L’objectif de l’exercice clairement formulé.
+
+
+Le code M utilisé à chaque étape.
+
+
+Une capture d’écran des résultats à chaque étape.
+
+
+Une interprétation de minimum 2 lignes pour chaque résultat affiché.
+
+
+Une conclusion synthétique.
+
+
+Le fichier source Power BI en .pbix (contenant le code Power Query).
+
+
+IMPORTANT : Le nom complet et le numéro matricule doivent figurer dans le PDF et dans le fichier .pbix.

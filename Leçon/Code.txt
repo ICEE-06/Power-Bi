@@ -1,0 +1,10 @@
+let
+    Source = Excel.Workbook(File.Contents("C:\Users\Mention Info 2\Pictures\Power BI L2 INSI\j02\Data\Commandes_Export.xlsx"), null, true),
+    Feuille1 = Source{[Name="Sheet1"]}[Data],
+    ColonnesEntetes = Table.PromoteHeaders(Feuille1, [PromoteAllScalars=true]),
+    TypeColonnes = Table.TransformColumnTypes(ColonnesEntetes, {
+        {"Quantité", Int64.Type}
+    }),
+    Ajout = Table.AddColumn(TypeColonnes, "Catégorie", each if [Quantité] > 100 then "Client Important" else "Client Normal")
+in
+    Ajout
